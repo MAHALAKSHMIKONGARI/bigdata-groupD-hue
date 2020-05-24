@@ -1,7 +1,7 @@
 # bigdata-groupD-hue
 
 ## Team members
-- Maha Lakshmi
+- Maha Lakshmi Kongari
 -
 -
 -
