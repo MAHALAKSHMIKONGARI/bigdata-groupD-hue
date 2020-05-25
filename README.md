@@ -13,3 +13,6 @@
 - Dheeraj Edupuganti
 
 ![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/FB_IMG_1567197302952.jpeg)
+
+- Sumanth Gorantla
+![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/MyImage.jpg)
