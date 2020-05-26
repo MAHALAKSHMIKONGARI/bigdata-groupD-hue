@@ -1,5 +1,7 @@
 # bigdata-groupD-hue
 
+# Apache Solr and Apache Hive
+
 ## Team members
 
 - Maha Lakshmi Kongari
@@ -73,7 +75,7 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 
 ![](solr_console.png)
 
-# APACHE HIVE 
+# Apache Hive
 
 ## Description
 - Hive is a datawarehouse software project built on top of hadoop for providing data query and analysis. Hive supports analysis of large datasets stored in HDFS and compatable file systems.
@@ -110,14 +112,21 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 ## Commands Used
 
 - Command used to display the table where customer name starts with "a"
- ``` SELECT * FROM orders WHERE customername LIKE 'a%'; ```
+ ``` SELECT * FROM orders```
+ ```WHERE customername LIKE 'a%'; ```
  
 - Command used to count the number of orders 
   ```SELECT Count(orderid) FROM orders;```
   
  - This query returns the customername and country from the  orders table. Where zipcode is 64668 and displays them.
   ```SELECT orders.customername, orders.countrt FROM orders ```
-  ```WHERE ( orders.zipcode = 64468);```
+  ```WHERE zipcode = 64468;```
+  
+ -  Command used to display the table where city name starts with M and end with E
+   ```SELECT * FROM orders```
+   ```WHERE countryname LIKE 'm%e';```
+  
+  
 References:
 - [https://www.youtube.com/watch?v=b45sSrHC_p8](https://www.youtube.com/watch?v=b45sSrHC_p8)
 - [https://www.youtube.com/watch?v=rxoS1p1TaFY&t=25s](https://www.youtube.com/watch?v=rxoS1p1TaFY&t=25s)
