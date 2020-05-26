@@ -73,6 +73,10 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 
 ![](solr_console.png)
 
+## APACHE HIVE 
 
+The Apache Hive data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL. Structure can be projected onto data already in storage. 
+
+A command line tool and JDBC driver are provided to connect users to Hive.
 
 
