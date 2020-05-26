@@ -107,6 +107,12 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 ## Dropping tables in HIVE
 - The command used to drop table from a database is ```drop table IF EXISTS order;```.
 
+## Commands Used
+
+- The command used to display the table where customer name starts with "a"
+
+ ``` SELECT * FROM orders
+WHERE customername LIKE 'a%'; ````
 
 
 References:
