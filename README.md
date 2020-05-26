@@ -48,6 +48,13 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 
 1. To delete the code from solr console, just navigate to core admin and select the core that we want to delete and click on unload.
 
+## Indexing data through solr
+1. After creating a core, select the particular core in the console and navigate to Query. Then select response format as json and click on execute query.
+1. The result shows that number of files are zero as this is the newely created core and data is not yet indexed. In order to index the data we will use sample data.
+1. Open powershell from C:\solr-8.5.1\example\exampledocs and run ```java -Dc=core name -jar post.jar *.xml``` command. Now we can observe data is indexed into the desired core.
+1. Now go to solr console and select core from options and navigate to query. Then select response format as json and click on execute query.
+1. We can also use filters such as filter query(fq), field list(fl) to get sorted data.
+
 
 
 
