@@ -80,3 +80,12 @@ The Apache Hive data warehouse software facilitates reading, writing, and managi
 A command line tool and JDBC driver are provided to connect users to Hive.
 
 
+
+
+
+
+References:
+- [https://www.youtube.com/watch?v=b45sSrHC_p8](https://www.youtube.com/watch?v=b45sSrHC_p8)
+- [https://www.youtube.com/watch?v=rxoS1p1TaFY&t=25s](https://www.youtube.com/watch?v=rxoS1p1TaFY&t=25s)
+
+
