@@ -73,14 +73,39 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 
 ![](solr_console.png)
 
-## APACHE HIVE 
+# APACHE HIVE 
 
-The Apache Hive data warehouse software facilitates reading, writing, and managing large datasets residing in distributed storage using SQL. Structure can be projected onto data already in storage. 
+## Description
+- Hive is a datawarehouse software project built on top of hadoop for providing data query and analysis. Hive supports analysis of large datasets stored in HDFS and compatable file systems.
 
-A command line tool and JDBC driver are provided to connect users to Hive.
+- It provides a SQL-like query language called HiveQL with schema on read and transparently converts queries to MapReduce, Apache Tez and Spark jobs.
+
+## Creating a table in hive
+
+- Let us consider the table orders which contains the details of the order such as the ordername, Orderid,country,city and zipcode.
+
+- ```create table orders (ordername String comment "Name of the order", orderid int, country String comment "Country from where the item is ordered", city String, Zipcode BigInt comment "Zipcode/postal code of the location where the item is to be delivered") row format delimited fields terminated by ',' lines terminated by '\n' stored as textfile;```.
+
+- Comment is used to understand about the particular column.
+
+## Inserting values into table
+
+- ```insert into table orders values('electronics',1234,'zambia','Ndola',50100), ('clothing',1957,'India','Guntur',522007),('groceries',3453,'USA','Maryville',64468),('autoparts',4589,'Germany','Berlin',453289);```.
 
 
+## Altering table in HIVE
 
+- The query used to change name of the table ```ALTER TABLE orders RENAME TO order;```.
+
+- The query used to drop a column is ```ALTER TABLE order DROP [COLUMN] city;```.
+
+- The query used to change the column name is ```ALTER TABLE order CHANGE city Location String;```.
+
+- The query used to add columns in a table is ```ALTER TABLE order ADD COLUMNS ( 
+  cname String COMMENT 'name of the customer');```.
+
+## Dropping tables in HIVE
+- The command used to drop table from a database is ```drop table IF EXISTS order;```.
 
 
 
