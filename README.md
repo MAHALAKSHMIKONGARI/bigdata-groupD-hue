@@ -40,9 +40,8 @@ Set up the environment variable, SOLR_HOME = C:\solr-8.5.1 and add %SOLR_HOME%\b
 ```./solr start -p 8080``` - To start the solr in the port 8080.
 ![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/start.png?raw=true)
  ```./solr status``` - To check the status of solr node.
- ![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/status.png?raw=true)
-
-1. Open the browser and run solr(use localhost:8080 to open console).
+![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/status.png?raw=true)
+5. Open the browser and run solr(use localhost:8080 to open console).
 ![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/localhost.png?raw=true)
 
 ## Creating and Deleting core using command
