@@ -28,25 +28,38 @@ http://apache.mirrors.hoobly.com/lucene/solr/8.5.1/solr-8.5.1.tgz
 
 1. Extract the Solr tar file using the command,
 ```tar zxf solr-8.5.1.tgz```
+![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/tar%20in%20shell.png?raw=true)
 
 1. Redirect the Solr folder created to C:\
 Set up the environment variable, SOLR_HOME = C:\solr-8.5.1 and add %SOLR_HOME%\bin in path.
+![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/env.png?raw=true)
+![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/envi.png?raw=true)
 
 1. Open powershell from C:\solr-8.5.1\bin and run the following commands:
+
 ```./solr start -p 8080``` - To start the solr in the port 8080.
+![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/start.png?raw=true)
  ```./solr status``` - To check the status of solr node.
+ ![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/status.png?raw=true)
 
 1. Open the browser and run solr(use localhost:8080 to open console).
+![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/localhost.png?raw=true)
 
 ## Creating and Deleting core using command
 1. To create core use command ```solr create -c core name```.
+![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/create.png?raw=true)
+
 1. To delete core use command ```solr delete -c core name```.
+![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/delete.png?raw=true)
 
 ## Creating and Deleting core using console
 1. To create a new core navigate to Core Admin in solr console and then click Add Core. It requires data folder and config files.
 For this, we have to create the folder with the core name and then, in C:\solr-8.5.1\corename folder, create two folders named conf and data. Include the default files of config from server>solr>configsets>default. Then, go to the solr console and click add core with the appropriate data and config files. we can observe that the core has been created.
+![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/Ccreate.png?raw=true)
 
 1. To delete the code from solr console, just navigate to core admin and select the core that we want to delete and click on unload.
+![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/Cdelete.png?raw=true)
+
 
 ## Indexing data through solr
 1. After creating a core, select the particular core in the console and navigate to Query. Then select response format as json and click on execute query.
