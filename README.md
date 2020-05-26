@@ -17,6 +17,8 @@
 
 - Dheeraj Edupuganti GitHub profile link - [https://github.com/Dheeraj0327](https://github.com/Dheeraj0327)
 
+- Sumanth Gorantla GitHub profile link - [https://github.com/gorantla96](https://github.com/gorantla96)
+
 ## Apache Solr:
 Description: 
 
