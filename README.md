@@ -44,9 +44,7 @@ Set up the environment variable, SOLR_HOME = C:\solr-8.5.1 and add %SOLR_HOME%\b
 
 ## Creating and Deleting core using console
 1. To create a new core navigate to Core Admin in solr console and then click Add Core. It requires data folder and config files.
-For this, we have to create the folder with the core name and then, in C:\solr-8.5.1\corename folder, create two folders named conf and data. Include the default files of config from server>solr>configsets>default.
-
-then, go to the solr console and click add core with the appropriate data and config files. we can observe that the core has been created.
+For this, we have to create the folder with the core name and then, in C:\solr-8.5.1\corename folder, create two folders named conf and data. Include the default files of config from server>solr>configsets>default. Then, go to the solr console and click add core with the appropriate data and config files. we can observe that the core has been created.
 
 1. To delete the code from solr console, just navigate to core admin and select the core that we want to delete and click on unload.
 
