@@ -11,3 +11,5 @@
 
 ## GitHub Profile Links
 - Venkat Prudhvi Profile link - [https://github.com/prudhvi15](https://github.com/prudhvi15)
+
+- Dheeraj Edupuganti GitHub profile link - [https://github.com/Dheeraj0327](https://github.com/Dheeraj0327)
