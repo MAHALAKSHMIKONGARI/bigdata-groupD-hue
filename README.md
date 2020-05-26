@@ -112,7 +112,7 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 - The command used to display the table where customer name starts with "a"
 
  ``` SELECT * FROM orders
-WHERE customername LIKE 'a%'; ````
+WHERE customername LIKE 'a%'; ```
 
 
 References:
