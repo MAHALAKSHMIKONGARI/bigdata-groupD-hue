@@ -73,7 +73,7 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 1. Now go to solr console and select core from options and navigate to query. Then select response format as json and click on execute query.
 1. We can also use filters such as filter query(fq), field list(fl) to get sorted data.
 
-![](solr_console.png)
+![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/Images/solr_console.png)
 
 # Apache Hive
 
