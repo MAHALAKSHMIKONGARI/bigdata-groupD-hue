@@ -86,13 +86,19 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 
 - Let us consider the table orders which contains the details of the order such as the ordername, Orderid,country,city and zipcode.
 
-- ```create table orders (ordername String comment "Name of the order", orderid int, country String comment "Country from where the item is ordered", city String, Zipcode BigInt comment "Zipcode/postal code of the location where the item is to be delivered") row format delimited fields terminated by ',' lines terminated by '\n' stored as textfile;```.
+- ```create table orders (ordername String comment "Name of the order", orderid int,``` 
+```country String comment "Country from where the item is ordered", city String, ```
+```Zipcode BigInt comment "Zipcode/postal code of the location where the item is to be delivered") ```
+```row format delimited fields terminated by ',' lines terminated by '\n' stored as textfile;```.
 
 - Comment is used to understand about the particular column.
 
 ## Inserting values into table
 
-- ```insert into table orders values('electronics',1234,'zambia','Ndola',50100), ('clothing',1957,'India','Guntur',522007),('groceries',3453,'USA','Maryville',64468),('autoparts',4589,'Germany','Berlin',453289);```.
+- ```insert into table orders values('electronics',1234,'zambia','Ndola',50100), ```
+```('clothing',1957,'India','Guntur',522007),```
+```('groceries',3453,'USA','Maryville',64468),```
+```('autoparts',4589,'Germany','Berlin',453289);```.
 
 
 ## Altering table in HIVE
@@ -107,7 +113,7 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
   cname String COMMENT 'name of the customer');```.
 
 ## Dropping tables in HIVE
-- The command used to drop table from a database is ```drop table IF EXISTS order;```.
+- The query used to drop table from a database is ```drop table IF EXISTS order;```.
 
 ## Queries used
 
