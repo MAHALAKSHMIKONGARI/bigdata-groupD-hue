@@ -89,11 +89,11 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 
 - ```create table orders (ordername String comment "Name of the order", orderid int,``` 
 
-```country String comment "Country from where the item is ordered", city String, ```
+  ```country String comment "Country from where the item is ordered", city String, ```
 
-```Zipcode BigInt comment "Zipcode/postal code of the location where the item is to be delivered") ```
+  ```Zipcode BigInt comment "Zipcode/postal code of the location where the item is to be delivered") ```
 
-```row format delimited fields terminated by ',' lines terminated by '\n' stored as textfile;```.
+  ```row format delimited fields terminated by ',' lines terminated by '\n' stored as textfile;```.
 
 - Comment is used to understand about the particular column.
 
@@ -101,11 +101,11 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 
 - ```insert into table orders values('electronics',1234,'zambia','Ndola',50100), ```
 
-```('clothing',1957,'India','Guntur',522007),```
+  ```('clothing',1957,'India','Guntur',522007),```
 
-```('groceries',3453,'USA','Maryville',64468),```
+  ```('groceries',3453,'USA','Maryville',64468),```
 
-```('autoparts',4589,'Germany','Berlin',453289);```.
+  ```('autoparts',4589,'Germany','Berlin',453289);```.
 
 
 ## Altering table in HIVE
