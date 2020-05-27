@@ -117,13 +117,13 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 
 ## Queries used
 
-- Query used to display the table where customer name starts with "a".
+- Query used to display the table where customer name starts with "a"
  
   ``` SELECT * FROM orders```
  
   ```WHERE customername LIKE 'a%'; ```
  
-- Query used to count the number of orders.
+- Query used to count the number of orders 
   ```SELECT Count(orderid) FROM orders;```
   
  - This query returns the customername and country from the  orders table. Where zipcode is 64668 and displays them.
@@ -132,23 +132,21 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
   
    ```WHERE zipcode = 64468;```
   
- -  Query used to display the table where city name starts with M and end with E.
+ -  Query used to display the table where city name starts with M and end with E
   
     ```SELECT * FROM orders```
    
     ```WHERE countryname LIKE 'm%e';```
    
- - Query used to display the table where order number ranges between 1 to 10.
+ - Query used to display the table where order number ranges between 1 to 10
    
    ```SELECT * FROM orders```
 
    ```WHERE orderid BETWEEN 1 AND 10;```
   
   
-References:
+### References:
 - [https://www.youtube.com/watch?v=b45sSrHC_p8](https://www.youtube.com/watch?v=b45sSrHC_p8)
 - [https://www.youtube.com/watch?v=rxoS1p1TaFY&t=25s](https://www.youtube.com/watch?v=rxoS1p1TaFY&t=25s)
-- [https://en.wikipedia.org/wiki/Apache_Hive] (https://en.wikipedia.org/wiki/Apache_Hive)
-- [https://www.tutorialspoint.com/hive/index.htm] (https://www.tutorialspoint.com/hive/index.htm)
-
-
+- [https://en.wikipedia.org/wiki/Apache_Hive](https://en.wikipedia.org/wiki/Apache_Hive)
+- [https://www.tutorialspoint.com/hive/index.htm](https://www.tutorialspoint.com/hive/index.htm)
