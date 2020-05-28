@@ -116,10 +116,10 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
   (customername string, orderid int, country String, zipcode BigInt)```.
 
 - The above query will drop a column named as city.
-- The query used to change the column name is ```ALTER TABLE order CHANGE city Location String;```.
+- The query used to change the column name is ```ALTER TABLE order CHANGE country Location String;```.
 
 - The query used to add columns in a table is ```ALTER TABLE order ADD COLUMNS ( 
-  cname String COMMENT 'name of the customer');```.
+  oname String COMMENT 'name of the order');```.
 
 ## Dropping tables in HIVE
 
