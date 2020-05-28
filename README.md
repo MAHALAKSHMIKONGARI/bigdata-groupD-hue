@@ -85,9 +85,9 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 
 ## Creating a table in hive
 
-- Let us consider the table orders which contains the details of the order such as the ordername, Orderid,country,city and zipcode.
+- Let us consider the table orders which contains the details of the order such as the customername, Orderid,country,city and zipcode.
 
-- ```create table orders (ordername String comment "Name of the order", orderid int,``` 
+- ```create table orders (Customername String comment "Name of the cutomer", orderid int,``` 
 
   ```country String comment "Country from where the item is ordered", city String, ```
 
@@ -99,13 +99,13 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 
 ## Inserting values into table
 
-- ```insert into table orders values('electronics',1234,'zambia','Ndola',50100), ```
+- ```insert into table orders values('Dheeraj',1234,'zambia','Ndola',50100), ```
 
-  ```('clothing',1957,'India','Guntur',522007),```
+  ```('Sumanth',1957,'India','Guntur',522007),```
 
-  ```('groceries',3453,'USA','Maryville',64468),```
+  ```('Prudhvi',3453,'USA','Maryville',64468),```
 
-  ```('autoparts',4589,'Germany','Berlin',453289);```.
+  ```('Maha',4589,'Germany','Berlin',453289);```.
 
 
 ## Altering table in HIVE
@@ -127,7 +127,7 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 
 - Query used to display the table where customer name starts with "a"
  
-  ``` SELECT * FROM orders```
+  ``` SELECT * FROM order```
  
   ```WHERE customername LIKE 'a%'; ```
  
@@ -136,19 +136,19 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
   
  - This query returns the customername and country from the  orders table. Where zipcode is 64668 and displays them.
  
-   ```SELECT orders.customername, orders.countrt FROM orders ```
+   ```SELECT orders.customername, order.country FROM orders ```
   
    ```WHERE zipcode = 64468;```
   
  -  Query used to display the table where city name starts with M and end with E
   
-    ```SELECT * FROM orders```
+    ```SELECT * FROM order```
    
     ```WHERE countryname LIKE 'm%e';```
    
  - Query used to display the table where order number ranges between 1 to 10
    
-   ```SELECT * FROM orders```
+   ```SELECT * FROM order```
 
    ```WHERE orderid BETWEEN 1 AND 10;```
   
