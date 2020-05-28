@@ -112,8 +112,10 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 
 - The query used to change name of the table ```ALTER TABLE orders RENAME TO order;```.
 
-- The query used to drop a column is ```ALTER TABLE order DROP [COLUMN] city;```.
+- The query used to drop a column is ``` ALTER TABLE order REPLACE COLUMNS
+  (customername string, orderid int, country String, zipcode BigInt)```.
 
+- The above query will drop a column named as city.
 - The query used to change the column name is ```ALTER TABLE order CHANGE city Location String;```.
 
 - The query used to add columns in a table is ```ALTER TABLE order ADD COLUMNS ( 
