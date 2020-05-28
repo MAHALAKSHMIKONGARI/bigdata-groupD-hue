@@ -131,7 +131,9 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
  
   ``` SELECT * FROM order```
  
-  ```WHERE customername LIKE 'a%'; ```
+  ```WHERE customername LIKE 'V%'; ```
+  
+  ![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/Images/hive7.JPG)
  
 - Query used to count the number of orders 
   ```SELECT Count(orderid) FROM orders;```
@@ -141,20 +143,34 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
    ```SELECT orders.customername, order.country FROM orders ```
   
    ```WHERE zipcode = 64468;```
+   
+   ![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/Images/hive9.JPG)
   
  -  Query used to display the table where city name starts with M and end with E
   
     ```SELECT * FROM order```
    
-    ```WHERE countryname LIKE 'm%e';```
+    ```WHERE countryname LIKE 'U%A';```
    
- - Query used to display the table where order number ranges between 1 to 10
+   ![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/Images/hive6.JPG)
+   
+ - Query used to display the table where order number ranges between 200 to 300
    
    ```SELECT * FROM order```
 
-   ```WHERE orderid BETWEEN 1 AND 10;```
-  
-  
+   ```WHERE orderid BETWEEN 200 AND 300;```
+   
+   ![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/Images/hive5.JPG)
+ 
+ - Query used for full join.
+   
+   ```SELECT orders.customer_name, SUPPLIER.supplier_id```
+     
+   ``` FROM orders```
+
+   ```FULL OUTER JOIN supplier ON SUPPLIER.supplier_id=Orders.SUPPLIER_ID;```
+   
+   ![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/Images/hive8.JPG)
 ### References:
 - [https://www.youtube.com/watch?v=b45sSrHC_p8](https://www.youtube.com/watch?v=b45sSrHC_p8)
 - [https://www.youtube.com/watch?v=rxoS1p1TaFY&t=25s](https://www.youtube.com/watch?v=rxoS1p1TaFY&t=25s)
