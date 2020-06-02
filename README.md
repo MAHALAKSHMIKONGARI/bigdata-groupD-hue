@@ -174,6 +174,7 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 ### References:
 - [https://www.youtube.com/watch?v=b45sSrHC_p8](https://www.youtube.com/watch?v=b45sSrHC_p8)
 - [https://www.youtube.com/watch?v=rxoS1p1TaFY&t=25s](https://www.youtube.com/watch?v=rxoS1p1TaFY&t=25s)
+- [https://en.wikipedia.org/wiki/Apache_Solr](https://en.wikipedia.org/wiki/Apache_Solr)
 - [https://www.tutorialspoint.com/apache_solr/index.htm](https://www.tutorialspoint.com/apache_solr/index.htm)
 - [https://en.wikipedia.org/wiki/Apache_Hive](https://en.wikipedia.org/wiki/Apache_Hive)
 - [https://www.tutorialspoint.com/hive/index.htm](https://www.tutorialspoint.com/hive/index.htm)
