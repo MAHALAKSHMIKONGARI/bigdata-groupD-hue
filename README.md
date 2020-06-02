@@ -127,7 +127,7 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
 
 ## Queries used
 
-- Query used to display the table where customer name starts with "a"
+- Query used to display the table where customer name starts with "V"
  
   ``` SELECT * FROM order```
  
@@ -146,7 +146,7 @@ For this, we have to create the folder with the core name and then, in C:\solr-8
    
    ![](https://github.com/MAHALAKSHMIKONGARI/bigdata-groupD-hue/blob/master/Images/hive9.JPG)
   
- -  Query used to display the table where city name starts with M and end with E
+ -  Query used to display the table where city name starts with U and end with A
   
     ```SELECT * FROM order```
    
